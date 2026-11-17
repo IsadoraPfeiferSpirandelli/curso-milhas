@@ -1,9 +1,9 @@
 /* Service worker: deixa o curso funcionando sem internet.
    Ao mudar qualquer arquivo do curso, aumente o número da versão abaixo. */
-var VERSION = "curso-milhas-v1";
+var VERSION = "curso-milhas-v2";
 var FILES = [
   "./", "./index.html", "./app.js", "./content1.js", "./content2.js", "./manifest.webmanifest",
-  "./icons/icon-192.png", "./icons/icon-512.png", "./icons/maskable-512.png", "./icons/apple-touch-icon.png"
+  "./icon-192.png", "./icon-512.png", "./maskable-512.png", "./apple-touch-icon.png"
 ];
 
 self.addEventListener("install", function (e) {
